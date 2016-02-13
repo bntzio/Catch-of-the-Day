@@ -4,9 +4,12 @@
  */
 
 import React from 'react';
+import autobind from 'autobind-decorator'
 
-var Header = React.createClass({
-	render: function(){
+@autobind
+class Header extends React.Component {
+
+	render() {
 		return (
 			<header className="top">
 				<h1>Catch
@@ -18,10 +21,12 @@ var Header = React.createClass({
 				<h3 className="tagline"><span>{this.props.tagline}</span></h3>
 			</header>
 		)
-	},
-	propTypes: {
-		tagline: React.PropTypes.string.isRequired
 	}
-});
+	
+}
+
+Header.propTypes = {
+	tagline: React.PropTypes.string.isRequired
+}
 
 export default Header;
