@@ -1,7 +1,7 @@
 Catch of the Day!
 =================
 
-![Catch of the Day](http://imgur.com/ghzfvKv)
+![Catch of the Day](http://i.imgur.com/ghzfvKv.png?1)
 
 **Catch of the Day!** is a React SPA *(Single-Page-Application)* for a seafood restaurant acting as a management system for the orders. The project were built by me during the [React for Beginners](https://reactforbeginners.com) course.
 
